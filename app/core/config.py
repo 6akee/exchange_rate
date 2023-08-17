@@ -38,6 +38,7 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_MINUTES: int = 40320  # 28 days
     BACKEND_CORS_ORIGINS: list[AnyHttpUrl] = []
     ALLOWED_HOSTS: list[str] = ["localhost", "127.0.0.1"]
+    EXCHANGE_API = "d75703073867145fd8c3487117c67711"
 
     # PROJECT NAME, VERSION AND DESCRIPTION
     PROJECT_NAME: str = "Exchange-Rate"
