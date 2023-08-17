@@ -3,7 +3,7 @@
 ### 1. Clone project
 
 ```bash
-git clone https://github.com/AA19BD/KMF.git
+git clone https://github.com/6akee/exchange_rate.git
 
 ```
 
@@ -11,7 +11,7 @@ git clone https://github.com/AA19BD/KMF.git
 
 ```bash
 ### 1. CD to root
-cd KMF/backend
+cd exchange_rate
 
 ### 2. Create virtual environment for python
 python3 -m venv venv
